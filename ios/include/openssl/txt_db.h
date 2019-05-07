@@ -59,12 +59,12 @@
 #ifndef HEADER_TXT_DB_H
 # define HEADER_TXT_DB_H
 
-# include <openssl/opensslconf.h>
+# include <OpenSSL-Universal/openssl/opensslconf.h>
 # ifndef OPENSSL_NO_BIO
-#  include <openssl/bio.h>
+#  include <OpenSSL-Universal/openssl/bio.h>
 # endif
-# include <openssl/stack.h>
-# include <openssl/lhash.h>
+# include <OpenSSL-Universal/openssl/stack.h>
+# include <OpenSSL-Universal/openssl/lhash.h>
 
 # define DB_ERROR_OK                     0
 # define DB_ERROR_MALLOC                 1

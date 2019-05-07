@@ -60,31 +60,31 @@
 #ifndef HEADER_TS_H
 # define HEADER_TS_H
 
-# include <openssl/opensslconf.h>
-# include <openssl/symhacks.h>
+# include <OpenSSL-Universal/openssl/opensslconf.h>
+# include <OpenSSL-Universal/openssl/symhacks.h>
 # ifndef OPENSSL_NO_BUFFER
-#  include <openssl/buffer.h>
+#  include <OpenSSL-Universal/openssl/buffer.h>
 # endif
 # ifndef OPENSSL_NO_EVP
-#  include <openssl/evp.h>
+#  include <OpenSSL-Universal/openssl/evp.h>
 # endif
 # ifndef OPENSSL_NO_BIO
-#  include <openssl/bio.h>
+#  include <OpenSSL-Universal/openssl/bio.h>
 # endif
-# include <openssl/stack.h>
-# include <openssl/asn1.h>
-# include <openssl/safestack.h>
+# include <OpenSSL-Universal/openssl/stack.h>
+# include <OpenSSL-Universal/openssl/asn1.h>
+# include <OpenSSL-Universal/openssl/safestack.h>
 
 # ifndef OPENSSL_NO_RSA
-#  include <openssl/rsa.h>
+#  include <OpenSSL-Universal/openssl/rsa.h>
 # endif
 
 # ifndef OPENSSL_NO_DSA
-#  include <openssl/dsa.h>
+#  include <OpenSSL-Universal/openssl/dsa.h>
 # endif
 
 # ifndef OPENSSL_NO_DH
-#  include <openssl/dh.h>
+#  include <OpenSSL-Universal/openssl/dh.h>
 # endif
 
 #ifdef  __cplusplus
@@ -96,8 +96,8 @@ extern "C" {
 #  undef X509_NAME
 # endif
 
-# include <openssl/x509.h>
-# include <openssl/x509v3.h>
+# include <OpenSSL-Universal/openssl/x509.h>
+# include <OpenSSL-Universal/openssl/x509v3.h>
 
 /*-
 MessageImprint ::= SEQUENCE  {

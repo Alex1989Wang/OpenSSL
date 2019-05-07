@@ -126,12 +126,12 @@
 # define HEADER_BN_H
 
 # include <limits.h>
-# include <openssl/e_os2.h>
+# include <OpenSSL-Universal/openssl/e_os2.h>
 # ifndef OPENSSL_NO_FP_API
 #  include <stdio.h>            /* FILE */
 # endif
-# include <openssl/ossl_typ.h>
-# include <openssl/crypto.h>
+# include <OpenSSL-Universal/openssl/ossl_typ.h>
+# include <OpenSSL-Universal/openssl/crypto.h>
 
 #ifdef  __cplusplus
 extern "C" {

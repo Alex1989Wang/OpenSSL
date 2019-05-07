@@ -59,16 +59,16 @@
 #ifndef HEADER_ECDSA_H
 # define HEADER_ECDSA_H
 
-# include <openssl/opensslconf.h>
+# include <OpenSSL-Universal/openssl/opensslconf.h>
 
 # ifdef OPENSSL_NO_ECDSA
 #  error ECDSA is disabled.
 # endif
 
-# include <openssl/ec.h>
-# include <openssl/ossl_typ.h>
+# include <OpenSSL-Universal/openssl/ec.h>
+# include <OpenSSL-Universal/openssl/ossl_typ.h>
 # ifndef OPENSSL_NO_DEPRECATED
-#  include <openssl/bn.h>
+#  include <OpenSSL-Universal/openssl/bn.h>
 # endif
 
 #ifdef __cplusplus
